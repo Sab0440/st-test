@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
 
 st.title('ML4B 2024')
 
@@ -13,12 +12,3 @@ df = pd.DataFrame({
 })
 st.write(df)
 
-#Python Test + Line Chart
-x_axis = [1.6,2,3,4]
-y_axis = [10,15, 18,20]
-
-plt.plot(x_axis, y_axis)
-plt.title("Line Chart")
-plt.xlabel("x_axis")
-plt.ylabel("y_axis")
-plt.show()
